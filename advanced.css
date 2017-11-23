@@ -14,7 +14,7 @@ nav {
 	/*text-align: center;*/
 }
 
-ul,li,nav {
+ul,li,nav, section {
 	margin: 0;
 	padding: 0;
 }
@@ -33,10 +33,25 @@ ul li {
 
 }
 
+.columns {
+	background-color: gray;
+	width: 32%;
+	float: left;
+}
+div#ef {
+	background-color: gray;
+	height: 50px;
+}
+
 #content{
 	width: 100%;
 	text-align: center;
 	vertical-align: middle;
+}
+
+#middlecolumn {
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 /*
