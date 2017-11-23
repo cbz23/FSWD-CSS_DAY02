@@ -3,8 +3,11 @@ header {
 	text-align: center;
 }
 
+#logo {
+	max-width: 175px;
+}
 body {
-	margin: 0px;
+	font-family: Montserrat, Arial;
 }
 
 nav {
@@ -14,18 +17,18 @@ nav {
 	/*text-align: center;*/
 }
 
-ul,li,nav, section, footer {
+ul.navi,li,nav, section, footer {
 	margin: 0;
 	padding: 0;
 }
 
-ul {
+ul.navi {
 	/*vertical-align: middle;*/
 	padding-top: 16px;
 	text-align: center;
 }
 
-ul li {
+ul.navi li {
 	display: inline;
 	list-style: none;
 	padding-left: 5px;
@@ -44,8 +47,14 @@ ul li {
 }
 
 div#ef {
-	background-color: gray;
-	/*height: 50px;*/
+	background-color: lightgray;
+	background-image: url("https://i.pinimg.com/originals/3a/4f/4d/3a4f4d321fe100c83cb3f46c6e8224d5.png"), 
+	url("https://az598155.vo.msecnd.net/wp-uploads/2015/10/Apple_Hero_CHina_Store.jpg");
+	background-size: 15%, auto auto;
+	background-repeat: no-repeat;
+	background-position: top, center;
+	background-rotat
+	height: 350px;
 }
 
 div#ef p {
@@ -77,7 +86,20 @@ footer p {
 }
 
 .columns {
-	background-color: red;
+	background-color: lightgray;
+}
+
+div.columns * {
+	text-align: left;
+}
+
+div.columns > div {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+img.leftcolumn {
+	width: 100%;
 }
 
 /*footer {
